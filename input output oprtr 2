@@ -1,0 +1,17 @@
+/* C++ Input and Output Operators */
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+   clrscr();
+   char welcome[80];
+   char message[80];
+   char comment[80];
+   char present[80];
+   cin.getline(welcome, 80);
+   cin.getline(message, 80);
+   cin.getline(comment, 80);
+   cin.getline(present, 80);
+   getch();
+}
